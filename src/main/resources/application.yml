@@ -3,7 +3,9 @@ server:
 
 eureka:
   instance:
-    hostname : 119.45.136.121
+    hostname : localhost
+    prefer-ip-address: true
+    ip-address: 119.45.136.121
   client:
     registerWithEureka : false
     fetchRegistry : false
